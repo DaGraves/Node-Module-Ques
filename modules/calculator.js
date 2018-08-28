@@ -1,17 +1,19 @@
+'use strict';
+
 const action = {
   add: function add(a, b) {
-    return a + b
+    return a + b;
   },
-    subtract: function subtract(a, b) {
-    return a - b
+  subtract: function subtract(a, b) {
+    return a - b;
   },
-    multiply: function multiply(a, b) {
+  multiply: function multiply(a, b) {
     return a * b;
   },
-    divide: function divide(a, b) {
+  divide: function divide(a, b) {
     return a / b;
   }
-} 
+}; 
 console.log(action);
 
 module.exports = action;
